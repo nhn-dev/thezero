@@ -32,7 +32,7 @@ Ferramenta: `tools/ig_brand.py`.
 - Fundo base: `#0A0A0B`. Gancho: `#F4F4F5`. Kicker: `#7CFFB2`. Apoio: `#8B8B93`.
 - **Frame 1 (viral):** 6–12 palavras, bold/semibold (650–800), tamanho 9–12% da altura (~120–160px em 1350), line-height 0.92–1.0, tracking −2% a −4%, máx. 3 linhas.
 - Texto sobre foto: sempre gradiente escuro atrás do bloco (contraste legível). Proibido branco em mid-tone sem scrim.
-- Slides 2+: corpo 4.5–6% da altura (~60–80px). Máx. 2 ideias/slide. Margem segura 6% das bordas.
+- Slides 2+: corpo 4.5–6% da altura (~60–80px). Máx. 2 ideias/slide. Margem segura **10–12%** das bordas (tipografia e wordmark nunca na zona de crop do IG).
 - Hierarquia: kicker mint uppercase tracking largo → gancho gigante → 1 linha apoio muted.
 
 ## Checklist de entrega
