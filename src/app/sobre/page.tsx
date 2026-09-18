@@ -15,7 +15,7 @@ export default function AboutPage() {
     <div className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
       <Wordmark className="mb-10 h-16 w-auto text-fg sm:h-20" />
       <p className="text-[0.7rem] font-medium tracking-[0.22em] text-accent uppercase">
-        Sobre · {site.tagline}
+        Sobre
       </p>
       <h1 className="mt-4 text-[clamp(2.4rem,7vw,4.6rem)] font-semibold leading-[0.94] tracking-tight text-balance">
         Se não dá pra testar, medir ou discordar em 40 segundos, não entra.

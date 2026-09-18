@@ -8,7 +8,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: { absolute: `${site.name} — ${site.tagline}` },
   description: site.description,
   alternates: { canonical: "/" },
 };
@@ -23,7 +22,7 @@ export default function HomePage() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
       <p className="text-[0.7rem] font-medium tracking-[0.25em] text-accent uppercase">
-        Newsroom · {site.tagline} · Brasil
+        Newsroom · Brasil
       </p>
 
       {featured ? (
