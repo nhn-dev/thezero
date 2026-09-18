@@ -12,7 +12,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { categoryList } from "@/lib/categories";
-import { site } from "@/lib/site";
 import { Menu, Search } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -82,7 +81,9 @@ export function SiteHeader() {
               <SheetHeader>
                 <SheetTitle className="sr-only">The Zero</SheetTitle>
                 <Wordmark className="h-8 w-auto text-fg" />
-                <SheetDescription>{site.tagline}</SheetDescription>
+                <SheetDescription className="sr-only">
+                  Menu de navegação
+                </SheetDescription>
               </SheetHeader>
               <nav className="mt-10 flex flex-col gap-5" aria-label="Menu">
                 <SheetClose asChild>
