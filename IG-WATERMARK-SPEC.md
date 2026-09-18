@@ -42,3 +42,11 @@ Ferramenta: `tools/ig_brand.py`.
 - [ ] Sem pill / caixa / watermark genérico
 - [ ] Notícia = foto real da fonte; opinião/demo = Flow/Gemini (conta `lavi.id.project@gmail.com`)
 - [ ] CEO revisa antes de publicar / trocar post
+
+## Voz nos ganchos e overlays (Nicholas)
+
+Linguagem fácil, humana, anti-robótica. O overlay tem que parecer falado no celular — não relatório de segurança.
+
+- Preferir: “sua extensão pode mandar no Gemini sem você ver”
+- Evitar: jargão de CVE, siglas soltas, tom de press release
+- Frame 1: conflito concreto + consequência pro usuário, em português do dia a dia
