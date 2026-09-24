@@ -40,8 +40,14 @@ const POSTS_DIR = path.join(process.cwd(), "content", "posts");
 function parseFrontmatter(data: Record<string, unknown>, slug: string): PostFrontmatter {
   const title = typeof data.title === "string" ? data.title : "";
   const excerpt = typeof data.excerpt === "string" ? data.excerpt : "";
-  const category = typeof data.category === "string" ? data.category : "";
+  let category = typeof data.category === "string" ? data.category : "";
   const date = typeof data.date === "string" ? data.date : "";
+
+  // O MDX de produção usa `jogos`. Este mirror ainda enumera `games`.
+  // Em laviorg/thezero, `jogos` já é slug válido e o remap não dispara.
+  if (category === "jogos" && !isCategorySlug(category) && isCategorySlug("games")) {
+    category = "games";
+  }
 
   if (!title || !excerpt || !date || !isCategorySlug(category)) {
     throw new Error(
